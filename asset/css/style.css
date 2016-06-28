@@ -145,6 +145,10 @@ body{
 }
 
 /*mine*/
+.mine {
+    margin-bottom: 20px;
+}
+
 #hot-program {
     padding: 0;
     border-radius: 0;
@@ -271,12 +275,17 @@ ul.social-network li {
 }
 .nav-tabs>li>a {
     border-radius: 0 !important;
+    text-transform: uppercase;
+
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     border: 2px solid #ff2e2e;
     border-bottom-color: #fff !important;
+    text-transform: uppercase;
 }
+
+
 
 .nav-tabs>li {
     margin-bottom: -2px;
