@@ -1,0 +1,283 @@
+@import url("mc.css");
+
+/*global*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+.box-header {
+    /*border-bottom: 5px solid #ccc;*/
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    background:#ff2e2e;
+    color: #fff !important;
+    padding: 7px 10px;
+    display: none;
+    /*border:1px solid #ccc;*/
+}
+
+#chart-content {
+    padding:20px 0;
+}
+
+#chart-content .media {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#chart-content .media-object{
+    width: 50px;
+}
+
+
+
+
+
+#top-bar {
+    padding: 5px 0;
+    background: #ff2e2e;
+}
+
+#top-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#top-bar ul li{
+    display:table-cell;
+    /*padding:10px;*/
+    padding-left: 10px;
+}
+
+#top-bar i {
+    color:#ffffff;
+}
+
+.navbar{
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 5px 0;
+    width: auto;
+}
+.main-header .navbar-brand {
+    height: 80px;
+}
+.main-header .nav >li >a {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-header .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+/*Slider*/
+.slider {
+    margin-bottom: 20px;
+}
+.slide-content{
+    position: absolute;
+    width: 40%;
+    /*padding:30px;*/
+    margin-top: 60px;
+}
+
+.slide-content-left{
+    top: 0; bottom: 0;
+}
+
+.slide-content-center{
+    left: 0; right: 0;
+    margin: 60px auto;
+}
+
+.slide-content-right{
+    right: 0;
+}
+
+.slide-content h1, .slide-content p{
+    color: #fff;
+}
+
+.slide-content h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-slider {
+    border: 2px solid #fff !important;
+    border-radius: 0;
+    color: #fff;
+    background: transparent !important;
+}
+
+/*news-homepage*/
+.news-homepage {}
+.news-homepage .thumbnail{
+    border: 0px;
+    padding: 0px;
+}
+.news-homepage .thumbnail .caption{
+    padding: 0px;
+}
+
+/*video-homepage*/
+.video-homepage {
+    margin-bottom: 20px;
+}
+
+/*mine*/
+#hot-program {
+    padding: 0;
+    border-radius: 0;
+    background: #ff2e2e;
+}
+
+#hot-program p, #hot-program a {
+    color: #fff;
+}
+
+#hot-program h4 {
+    font-weight: bold;
+}
+
+
+/*our-friends*/
+.our-friends {
+    background: #f0f0f0;
+    padding: 20px 0;
+    border-bottom: 3px solid #ff2e2e;
+}
+
+.our-friends img {
+    max-height: 90px;
+}
+
+/*footer*/
+.footer {
+    background: #333;
+    padding: 10px 0;
+}
+
+.footer-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a, .footer h5, .footer p, .footer address {
+    color: #ccc;
+}
+
+.footer address {
+    line-height: 27px;
+}
+
+.footer h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer .link-lists {
+}
+
+.footer .link-lists li{
+    border-top: 1px solid #ccc;
+    padding: 3px 0;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-circle li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 30px;
+	height: 30px;
+	font-size:15px;
+    background-color: #666;
+}
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+
+
+
+/*copyright*/
+.copyright {
+    background: #666;
+    padding: 10px 0;
+}
+.copyright * {
+    color:#fff;
+}
+
+/*tab*/
+.nav-tabs {
+    border-bottom: 2px solid #ff2e2e;
+}
+.nav-tabs>li>a {
+    border-radius: 0 !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 2px solid #ff2e2e;
+    border-bottom-color: #fff !important;
+}
+
+.nav-tabs>li {
+    margin-bottom: -2px;
+}
