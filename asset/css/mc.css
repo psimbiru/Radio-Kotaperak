@@ -1,0 +1,64 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .main-header .nav >li >a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .main-header .nav >li {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .main-header .nav >li >a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .main-header .nav >li {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .main-header .nav >li >a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .main-header .nav >li {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .main-header .nav >li >a {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .main-header .nav >li {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .main-header .nav >li >a {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .main-header .nav >li {
+        width: auto;;
+        float: left;
+    }
+}
