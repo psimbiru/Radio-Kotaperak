@@ -5,8 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Bootstrap 101 Template</title>
+        <title>Radio Kotaperak</title>
         <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="asset/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="asset/css/style.css" rel="stylesheet">
+        <link href="asset/flexslider/flexslider.css" rel="stylesheet">
+        <link href="asset/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="asset/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -14,9 +20,398 @@
         <![endif]-->
     </head>
     <body>
-        <h1>Hello, world!</h1>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-        <script src="asset/js/jquery-3.0.0.min.js"></script>
+        <a id="top_toggle" href="#" class="to-top-btn">
+            <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+        </a>
+
+        <!-- <div id="top-bar">
+            <div class="container">
+                <ul class="pull-right">
+                    <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-2x fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="main-header">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="asset/images/logo.png" alt="Dispute Bills">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="#">Music</a></li>
+                            <li><a href="program.html">Program</a></li>
+                            <li><a href="news.html">Berita</a></li>
+                            <li><a href="album.html">Gallery</a></li>
+                            <li><a href="about.html">Tentang Kami</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <div id="mini-header">
+            <h1>News And Event</h1>
+        </div>
+
+        <div id="breadcrumb" >
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">News</li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="sub-page-content" class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div id="news-archives">
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/7.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Pregnant Liv Tyler laughs at 'pointy and huge' baby bump and can't wait to give birth
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    The mum-of-one is expecting her second child with fiancé David Gardner and couldn't resist poking fun at her own figure
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/1.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Suge Knight 'SUING Chris Brown' after he was shot 7 times in nightclub in 2014
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    The rap mogul has blamed the star for not hiring adequate security on the night he was shot at 1Oak nightclub
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/2.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Khloe Kardashian reveals why her birthday makes her sad as she turns 32
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    The reality star says her past birthdays have always been negative
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/3.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Prince Harry's ex Chelsy Davy opens up on 'scary' and 'uncomfortable' romance in public eye
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    The blonde beauty has admitted she found it hard to cope with their relationship playing out in front of the world
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/4.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Wendy Williams accuses Taylor Swift of setting up pictures with Tom Hiddleston - and reckons they're moving too fast
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    Wendy wasn't pulling any punches as she took aim at the new couple
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/5.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        Fergie poses topless as she prepares to unveil comeback single M.I.L.F.$
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    The singer - real name Stacy Ferguson - has unveiled a dramatic new look ahead of the release.
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="asset/images/news/thumbs/6.jpg">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    <a href="#">
+                                        England WAGs Annie Kilner and Sam Cooke steal Rebekah Vardy's thunder with jaw dropping bikini shoot
+                                    </a>
+                                </h4>
+                                <div class="meta">
+                                    24 January 2016 23:23
+                                </div>
+                                <p>
+                                    Kyle Walker and Chris Smalling's ladies look incredible in a series of snaps
+                                </p>
+                                <div class="tags">
+                                    <span class="label label-default label-orange">News</span>
+                                    <span class="label label-default label-orange">Celeb</span>
+                                    <span class="label label-default label-orange">Gosip</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3" id="sidebar">
+                    <div class="box-header">
+                        <h4>Popular News</h4>
+                    </div>
+                    <ul class="link-lists">
+                        <li>
+                            <a href="#">Pregnant Liv Tyler laughs at 'pointy and huge' baby bump and can't wait to give birth</a>
+                        </li>
+                        <li>
+                            <a href="#">Suge Knight 'SUING Chris Brown' after he was shot 7 times in nightclub in 2014</a>
+                        </li>
+                        <li>
+                            <a href="#">Khloe Kardashian reveals why her birthday makes her sad as she turns 32</a>
+                        </li>
+                        <li>
+                            <a href="#">Prince Harry's ex Chelsy Davy opens up on 'scary' and 'uncomfortable' romance in public eye</a>
+                        </li>
+                        <li>
+                            <a href="#">Wendy Williams accuses Taylor Swift of setting up pictures with Tom Hiddleston - and reckons they're moving too fast</a>
+                        </li>
+                        <li>
+                            <a href="#">England WAGs Annie Kilner and Sam Cooke steal Rebekah Vardy's thunder with jaw dropping bikini shoot</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="col-lg-3">
+                    <div class="footer-content">
+                        <h5>About 94.6 FM </h5>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-content">
+                        <h5>Contact Us</h5>
+                        <address>
+                        	<i class="fa fa-home"></i> 25, Lorem Lis Street, California, US <br>
+                        	<i class="fa fa-phone"></i> Phone: 800 123 3456 <br>
+                        	<i class="fa fa-globe"></i> Website: <a href="#">www.radiokotaperak.com</a> <br>
+                        	<i class="fa fa-envelope"></i> Email: <a href="mailto:info@anybiz.com">info@radiokotaperak.com</a>
+                        </address>
+
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-link">
+                        <h5>Menu</h5>
+                        <ul class="link-lists">
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#">Musik</a></li>
+                            <li><a href="program.html">Program</a></li>
+                            <li><a href="#">Berita</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Tentang Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="footer-link">
+                        <h5>Top Program</h5>
+                        <ul class="link-lists">
+                            <li><a href="#">Mbangun desa</a></li>
+                            <li><a href="#">Kelompen capir</a></li>
+                            <li><a href="#">Cerdas Cermat</a></li>
+                            <li><a href="#">Dunia Dalam Berita</a></li>
+                            <li><a href="#">Berpacu Dalam Melodi</a></li>
+                            <li><a href="#">Tembang Lawas Kenangan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="col-lg-9">
+                    © 2016 Copyright Radio Kotaperak Template by Psimbiru.
+                </div>
+            </div>
+        </div>
+
+        <script src="asset/js/jquery.min.js"></script>
         <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+        <script src="asset/flexslider/jquery.flexslider.js"></script>
+        <script src="asset/owl-carousel/owl.carousel.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#owl-example").owlCarousel({
+                    pagination: false,
+                    autoPlay : true
+                });
+            });
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    controlNav: false,               //Boolean: Create navigation for paging control of each slide? Note: Leave true for manualControls usage
+                    directionNav: false             //Boolean: Create navigation for previous/next navigation? (true/false)
+                });
+            });
+
+            $(document).ready(function(){
+            	//lets show the button when the page scroll to about 400 pixels
+                //change the value to your desired offset
+                $(window).scroll(function() {
+                    if($(window).scrollTop() > 400){
+                        //show the button when scroll offset is greater than 400 pixels
+                        $('.to-top-btn').fadeIn('slow');
+                    }else{
+                        //hide the button if scroll offset is less than 400 pixels
+                        $('.to-top-btn').fadeOut('slow');
+                    }
+                });
+
+                $("#top_toggle").click(function() {
+                    $('html, body').animate({
+                        scrollTop: $("#top-bar").offset().top
+                    }, 2000);
+                });
+            });
+        </script>
+
+
     </body>
 </html>
