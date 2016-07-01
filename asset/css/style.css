@@ -59,7 +59,7 @@ a {
 .breadcrumb {margin-bottom: 0;}
 
 #top-bar {
-    padding: 5px 0;
+    padding: 1px 0;
     background: #ff2e2e;
 }
 
@@ -406,7 +406,13 @@ ul.social-network li {
 
 
 #our-programs {}
-#our-programs h4 {text-align: center;}
+#our-programs h4 {
+    text-align: center;
+}
+#our-programs h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
 #our-programs .thumbnail {
     border-radius: 0;
     margin-bottom: 0;
